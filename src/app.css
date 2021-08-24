@@ -1,0 +1,32 @@
+body{
+    margin: 0;
+    background-color: black;
+    color: white;
+}
+#login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.loginhead{
+    color: purple;
+    font-size: 70px;
+}
+.loginbase{
+    color: seagreen;
+    font-size: 40px;
+}
+#fb, #ggl{
+    font-size: 30px;
+    margin: 20px 20px;
+    padding: 10px 10px;
+    border-radius: 20px;
+    background-color: purple;
+    border-color: silver;
+    border-block-width: 5px;
+}
+#fb:hover, #ggl:hover{
+    color: teal;
+    background-color: turquoise;
+}

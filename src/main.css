@@ -1,0 +1,33 @@
+nav{
+    background-color: purple;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+h2{
+    margin: 0;
+    padding: 10px 10px;
+    font-size: 50px;
+}
+#p1btn{
+    padding-top: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer{
+    padding-top: 250px;
+    display: flex;
+    justify-content: center;
+}
+#logout{
+    padding: 5px 5px;
+    font-size: 30px;
+    background-color: skyblue;
+}
+#logout:hover{
+    background-color: saddlebrown;
+    border-radius: 20px;
+}
